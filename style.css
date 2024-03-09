@@ -9,6 +9,8 @@
     height: 2114px;
 }
 
+
+
 .logo {
     width: 88.66px;
     height: 28.74px;
@@ -257,4 +259,171 @@ ul li:hover {
     gap: 40px;
     margin-left: 300px;
     margin-top: -25px;
+}
+
+
+@media screen and (max-width: 600px) {
+    nav{
+        width: 100%;
+        
+    }
+    .project-body{
+        width: 100%;
+    }
+
+    .wrapper-body{
+        width: 100%;
+    }
+
+    .logo{
+        width: 110px;
+        height: 40px;
+        margin-left: 130px;
+    }
+
+    .header-button{
+        margin-left: 350px;
+        margin-top: -45px;
+    }
+
+    .header-text{
+        margin-left: 160px;
+        margin-top: 180px;
+        color: rgb(54, 83, 107);
+        font-family: DM Serif Display;
+        font-size: 72px;
+        font-weight: 400;
+        line-height: 72px;
+        letter-spacing: -0.55px;
+        text-align: left;
+        width: 446px;
+        height: 143px;
+        margin-left: 70px;  
+    }
+
+    .body-text{
+        width: 445px;
+    height: 56px;
+    color: rgb(251, 252, 254);
+    font-family: DM Serif Display;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: -0.37px;
+    text-align: left;
+    padding-top: 100px;
+    margin-left: 165px;
+    margin-left: 50px;
+    margin-top: -30px;
+    }
+
+    .body-information{
+        width: 445px;
+    height: 112px;
+    color: rgb(251, 252, 254);
+    font-family: Public Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 80px;
+    margin-left: 165px;
+    opacity: 0.7;
+    margin-left: 50px;
+    }
+
+    .information-button{
+        width: 129px;
+    height: 48px;
+    background-color: rgb(27, 38, 47);
+    border-radius: 24px;
+    border-color: white;
+    color: rgb(251, 252, 254);
+    font-family: Public Sans;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: -0.12px;
+    text-align: center;
+    margin-top: 32px;
+    margin-left: 165px;
+    margin-left: 50px;
+    }
+
+    .wrapper__body-img{
+            margin-left: 165px;
+            margin-top: 100px;
+            margin-left: 15px;
+    }
+
+    .footer-logo{
+            margin-left: 210px;
+            margin-top: 56px;
+            margin-left: 240px;
+    }
+
+
+}
+
+/* Media query for screens with a width between 601 and 768 pixels */
+@media screen and (min-width: 601px) and (max-width: 768px) {
+    .logo{
+        width: 150px;
+        height: 50px;
+        margin-left: 130px;
+        margin-left: 100px;
+    }
+    .header-button{
+        margin-left: 480px;
+        margin-top: -45px;
+    }
+
+    .header-text{
+        margin-left: 160px;
+        margin-top: 180px;
+        color: rgb(54, 83, 107);
+        font-family: DM Serif Display;
+        font-size: 72px;
+        font-weight: 400;
+        line-height: 72px;
+        letter-spacing: -0.55px;
+        text-align: left;
+        width: 446px;
+        height: 143px;
+        margin-left: 11 0px; 
+        margin-top: -5px; 
+        margin-top: 110px;
+    }
+
+    .wrapper__body-img{
+        margin-left: 165px;
+        margin-top: 100px;
+        margin-left: 100px;
+}
+
+    .informations-img{
+        gap: 80px;
+    }
+
+    .footer-logo{
+        margin-left: 210px;
+        margin-top: 56px;
+        margin-left: 320px;
+}
+}
+
+/* Media query for screens with a width between 769 and 1024 pixels */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+      
+}
+
+/* Media query for screens with a width between 1025 and 1200 pixels */
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+      
+}
+
+/* Media query for screens with a minimum width of 1201 pixels */
+@media screen and (min-width: 1201px) {
+   
 }
